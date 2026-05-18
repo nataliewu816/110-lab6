@@ -24,4 +24,9 @@ async function deleteBook(req, res) {
   res.json({ message: "Book deleted" });
 }
 
-module.exports = { getBooks, createBook, updateBook, deleteBook };
+module.exports = { 
+    getBooks, 
+    createBook, 
+    updateBook, 
+    deleteBook 
+};
